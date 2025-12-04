@@ -9,7 +9,7 @@ public final class Eventer {
 
     private init() {}
 
-    public func activate(config: EventerConfig) throws {
+    public func activate(config: EventerConfig) {
         self.config = config
         
         transports.removeAll()
